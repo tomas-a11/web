@@ -1,0 +1,68 @@
+/* === IMPORTANTE ===
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================= */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #pie { clear: both; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; margin-right: 2em; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido img { width: 100px; float: left; }
+
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================= */
+* {font-family: Arial, Helvetica, sans-serif;text-align: justify;}
+h1{text-align:center;font-size: 300%;}
+h2{font-size: 200%;flood-color:gray;color:white;margin-bottom:0.2em;padding-top:0.2em;padding-left:0.5em;padding-right:0.5em;padding-bottom:0.2em}
+.rojo{background-color:crimson}
+.azul{background-color:dodgerblue}
+p{margin:1em}
+strong{background-color: aliceblue;}
+#cabecera{padding: 1em;}
+#menu{padding: 0.5em;margin-bottom:0.5em;
+   border-bottom-width:3px;
+   border-bottom-style: solid;
+   border-bottom-color:darkgrey;
+}
+div #articulo{margin-top:1em; 
+   margin-bottom:1em;
+   padding-bottom:1em;
+   background-color:lightgray;}
+  
+ #pie{margin-top:1em;
+   padding-top:1em;
+border-top-width:1px;
+border-top-style:dashed;
+border-top-color:#c5c5c5;
+text-align:center;
+font-size:0.8em;
+color:#666}
+img{margin-right:1em;margin-bottom:1em;}
+a{font-weight: bold;               
+   color: dodgerblue;               
+   text-decoration: none;           
+   padding: 0.5em;}
+a:hover {
+      background-color: dodgerblue;
+      color: #FFF;
+   }
+   a:visited {
+      color: #666;
+   }
